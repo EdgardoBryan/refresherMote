@@ -97,3 +97,62 @@ if(activeUserCount > 1){
 }
 
 const nums = [1,2,3]
+
+console.log(nums.length) 
+
+nums.push(4)
+
+console.log(nums)
+const last = nums.pop()
+console.log(last)
+
+console.log(nums)
+
+nums[0] = 13
+console.log(nums)
+
+const nameThree = "aaron"
+const age = 26
+const hasJob = false
+
+const user = {
+    name : "arron",
+    age : 26,
+    hasJob : true,
+    socialMedia: {
+        twitter:"",
+        instagram:""
+    } 
+}
+//dot syntax
+console.log(user.name)
+//string literal indexing
+console.log(user["hasJob"])
+//variable syntax
+const newKey = "age"
+console.log(user[newKey])
+
+//const does not apply to compound data types
+user.age = 40
+console.log(user.age)
+
+user.socialMedia.twitter
+
+const numbers =[1,2,3]
+//subtract one gives us the last indicies in case you dont know how big the array is 
+console.log(numbers[nums.length - 1])
+
+const product = {
+    name:"shiny shoes",
+    price:100,
+    brand:"gucci",
+    color:"black",
+    soldOut:false
+  }
+  
+  product.sale = true
+  product.tags = ["men","luxary"]
+  product.soldOut = true
+  console.log(product)
+
+    
